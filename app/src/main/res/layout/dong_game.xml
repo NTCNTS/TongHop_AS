@@ -7,17 +7,18 @@
         android:id="@+id/imageviewHinh"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:padding="10dp"/>
+        android:padding="5dp"/>
 
     <TextView
         android:id="@+id/textviewTen"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ten"
         android:layout_toRightOf="@+id/imageviewHinh"
         android:textStyle="bold"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="#C5C6C7"/>
     <TextView
         android:text="Mo Ta"
         android:textSize="20dp"
@@ -26,7 +27,8 @@
         android:layout_toRightOf="@id/imageviewHinh"
         android:id="@+id/textviewMoTa"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textColor="#C5C6C7"/>
 
     <TextView
         android:id="@+id/textviewGia"
@@ -36,7 +38,8 @@
         android:layout_marginLeft="190dp"
         android:layout_toRightOf="@+id/imageviewHinh"
         android:text="Gia"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textColor="#C5C6C7"/>
 
     <TextView
         android:id="@+id/cong"
@@ -48,7 +51,7 @@
         android:padding="3dp"
         android:text="+"
         android:textAlignment="center"
-        android:textColor="#3F51B5"
+        android:textColor="#00E3FF"
         android:textSize="30dp"
         android:textStyle="bold" />
 
@@ -62,7 +65,7 @@
         android:text="-"
         android:padding="3dp"
         android:textAlignment="center"
-        android:textColor="#3F51B5"
+        android:textColor="#00E3FF"
         android:textSize="30dp"
         android:textStyle="bold" />
 

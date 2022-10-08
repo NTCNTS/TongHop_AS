@@ -7,10 +7,10 @@ public class Game {
     private int Hinh;
 
     public Game(String ten, String moTa, String gia, int hinh) {
-        Ten = ten;
-        MoTa = moTa;
-        Gia = gia;
-        Hinh = hinh;
+        this.Ten = ten;
+        this.MoTa = moTa;
+        this.Gia = gia;
+        this.Hinh = hinh;
     }
 
     public String getTen() {

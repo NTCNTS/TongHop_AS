@@ -4,8 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Signup"
+    tools:context=".SignUp"
     android:background="@drawable/gradi">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:background="@drawable/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
     <RelativeLayout
         android:id="@+id/form"
         android:layout_width="match_parent"
@@ -16,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="40dp"
             android:orientation="vertical">
@@ -31,14 +38,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Full name"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/nameSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <LinearLayout
@@ -52,14 +60,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="UserName"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/usernameSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <LinearLayout
@@ -73,14 +82,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Password"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/passwordSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <LinearLayout
@@ -94,14 +104,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Birth"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/birthSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <LinearLayout
@@ -115,14 +126,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Location"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/locationSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <LinearLayout
@@ -136,14 +148,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Phone number"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/phonenumberSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <LinearLayout
@@ -157,21 +170,25 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Mail"
-                    android:textColor="#03DFFA"/>
+                    android:textColor="#C5C6C7"/>
 
                 <EditText
                     android:id="@+id/mailSu"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="#C5C6C7"/>
             </LinearLayout>
 
             <Button
                 android:id="@+id/buttonSu"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sign Up" />
+                android:background="@drawable/custom_button_1"
+                android:text="Sign Up"
+                android:textColor="#C5C6C7"/>
         </LinearLayout>
 
     </RelativeLayout>

@@ -3,14 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_detail.xml" value="0.1286727456940223" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/drawable/custom_background.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/drawable/custom_button_1.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/drawable/custom_edittext_1.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/drawable/gradi.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_fragment_list.xml" value="0.121875" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_game.xml" value="0.1286727456940223" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_list.xml" value="0.1286727456940223" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_login.xml" value="0.1286727456940223" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_main.xml" value="0.1286727456940223" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_profile.xml" value="0.1286727456940223" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_sign_up.xml" value="0.1286727456940223" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_list.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_menu_list_e.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/layout/dong_game.xml" value="0.1281661600810537" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TongHop_Linh/app/src/main/res/menu/menu_bottom_nav.xml" value="0.1" />
       </map>
     </option>
   </component>

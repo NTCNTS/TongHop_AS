@@ -4,27 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/gradi">
 
-    <LinearLayout
-        android:layout_marginTop="200dp"
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_margin="2dp"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/buttonHList"
-            android:text="List"/>
-        <Button
-            android:layout_margin="2dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Profile"
-            android:id="@+id/buttonHProfile"/>
-    </LinearLayout>
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@color/custom_color_bottom_nav"
+        app:itemTextColor="@color/custom_color_bottom_nav"
+        app:menu="@menu/menu_bottom_nav" />
 
 </RelativeLayout>

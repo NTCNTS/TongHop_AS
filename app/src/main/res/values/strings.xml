@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TongHop_Linh</string>
+    <string name="action_list">List</string>
+    <string name="action_profile">Profile</string>
 </resources>

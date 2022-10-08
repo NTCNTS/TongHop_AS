@@ -8,7 +8,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
@@ -39,8 +38,8 @@ public class GameAdapter extends BaseAdapter {
         return 0;
     }
     public class ViewHolder{
-        ImageView imgHinh;
         TextView tTen,tMoTa,tGia;
+        ImageView imgHinh;
     }
 
     @Override
